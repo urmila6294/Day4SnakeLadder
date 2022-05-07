@@ -11,5 +11,8 @@ package com.bridgelabzsnake;
 	        Scanner read = new Scanner(System.in);
 	        int num = 0;
 	        System.out.println("The position  number is at 0 ");
+	        Random random = new Random();
+	        int dice1 = random.nextInt(6)+1;
+	        System.out.println("The player rolls dice " +dice1);
 }
 }
